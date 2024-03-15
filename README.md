@@ -1,4 +1,4 @@
-<strong>Introduction to Our Recipe Project<strong>
+<strong>Introduction to Our Recipe Project</strong>
 
 Welcome to our culinary journey! In this recipe project, we embark on a flavorful adventure through the world of gastronomy, aiming to explore, create, and share delicious dishes from diverse cultures and traditions. Whether you're a seasoned chef or a novice in the kitchen, our collection of recipes promises to inspire, educate, and delight your taste buds.
 
