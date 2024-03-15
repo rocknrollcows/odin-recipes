@@ -2,44 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Odin Recipes</title>
-        <style>
-            h1 {
-                font-family: "Comic Sans MS", "Comic Sans", cursive;
-                font-size: 70px;
-            }
-            .container {
-                position: relative;
-                text-align:center;
-                color: white;
-            }
-            .image-link img {
-                width: 50%;
-            }
-            .image-link:hover img {
-                transform: scale(.98); /* Adjust scale for image zoom effect */
-                opacity: 50%;
-                transition: scale 0.3s ease;
-            }
-            .image-link .hover-text{
-                position: absolute;
-                font-family: "Comic Sans MS", "Comic Sans", cursive;
-                color: transparent;
-                font-size: 300%;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-            .image-link:hover .hover-text {
-                opacity: 1; /* Adjust opacity for hover effect on images */
-                color: #ffffff;
-                text-shadow: 2px 2px #000000;
-
-            }
-        </style>
+        <title>Misc Recipes</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 style="text-align:center">Misc Recipes</h1>
+        <div class="content-container">
+            <div class="h1-container">
+                <h1 style="font-size: 400%; text-align:center; animation: wiggle .5s infinite; margin:5px">Misc Recipes</h1>
+            </div>  
+        </div>
         <div class="container">
             <a href="./odin-recipes/lasagna.html" class="image-link"><img src="./images/lasagna.jpg" alt="lasagna"><div class="hover-text">lasagna</div></a>
         </div>
