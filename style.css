@@ -1,0 +1,91 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    line-height: 1.6;
+    margin: 20px;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-link img {
+    width: 30%;
+    border-radius: 20px;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Combined transition */
+}
+
+.image-link:hover img {
+    transform: scale(.95); /* Adjust scale for image zoom effect */
+    opacity: 50%;
+}
+
+.image-link .hover-text {
+    position: absolute;
+    color: transparent;
+    font-size: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease, font-size 0.3s ease; /* Combined transition */
+}
+
+.image-link:hover .hover-text {
+    opacity: 1; /* Adjust opacity for hover effect on images */
+    font-size: 500%;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #013d5b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 150%;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #015e8c;
+}
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.6); /* Light white background with opacity */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.h1-container {
+    background-color: rgba(0, 0, 0, 0.501); /* Light white background with opacity */
+    border-radius: 10px;
+    padding: 1px 20px;
+    color: #ffffff;
+}
+
+@keyframes wiggle {
+    0%, 100% { transform: rotate(-0.2deg); }
+    50% { transform: rotate(0.2deg); }
+}
